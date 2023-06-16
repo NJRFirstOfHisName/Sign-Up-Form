@@ -1,3 +1,9 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
 html, body {
     background-color: rgb(239, 240, 242);
     display: flex;
@@ -5,7 +11,6 @@ html, body {
     flex-wrap: wrap;
     height: 100%;
     margin: 0;
-    font-family: arial;
 }
 
 .image {
@@ -65,7 +70,6 @@ form {
 }
 
 .sign-up-forms > div {
-    flex: 20%;
     display: flex;
     flex-direction: column;
     padding: .5em;
@@ -77,8 +81,12 @@ label {
 }
 
 input {
-    width: 200px
+    width: 200px;
+    border: 1px solid #E5E7EB;
+}
 
+input:focus {
+    border: 1px solid lightskyblue;
 }
 
 button {
