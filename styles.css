@@ -74,6 +74,7 @@ form {
     flex-direction: column;
     padding: .5em;
     margin: 0 3%;
+    flex-basis: 20%;
 }
 
 label {
@@ -107,4 +108,4 @@ button {
 
 .error {
     border:1px solid red;
-  }
+}
